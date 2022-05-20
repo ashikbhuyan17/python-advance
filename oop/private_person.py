@@ -1,5 +1,5 @@
 class Person:
-    def __init__(self,person_name, date_of_birth,height):
+    def __init__(self,person_name: str, date_of_birth: int,height:int):
         self.__name= person_name
         self.__dof=date_of_birth
         self.__ht = height
